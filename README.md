@@ -12,19 +12,19 @@ including:
 
 The main file can be run using
 ```
-$ python main.py gammasum seed kmax num_windows num_intervals
+$ python main.py [GAMMASUM] [SEED] [KMAX] [NUM_WINDOWS] [NUM_INTERVALS]
 ```
 where
 
-`gammasum` is the LI class label
+`GAMMASUM` is the LI class label
 
-`seed` is the RNG seed
+`SEED` is the RNG seed
 
-`kmax` is the maximum index for each grid
+`KMAX` is the maximum index for each grid
 
-`num_windows` is the number of windows to use when estimating the number variance N(r)
+`NUM_WINDOWS` is the number of windows to use when estimating the number variance N(r)
 
-`num_intervals` is the number of radii to use in the argument for N(r)
+`NUM_INTERVALS` is the number of radii to use in the argument for N(r)
 
 # Other files
 
